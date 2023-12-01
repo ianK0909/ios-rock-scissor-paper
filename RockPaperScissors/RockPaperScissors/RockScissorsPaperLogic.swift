@@ -23,8 +23,13 @@ private func userInputReadLine() {
         let computerRandomNum = getComputerRandomNumber()
         let inputNum = readLine()
         guard let input = inputNum, let userInputNum = Int(input), userInputNum > -1 && userInputNum < 4 else {
-            print(ErrorMessages.inputError)
-            displayRockScissorsPaperMenu()
+            if isWorkingMukchippa {
+                isWhoTurn = isComputerTurn
+                displayMukchippaMenu()
+            } else {
+                print(ErrorMessages.inputError)
+                displayRockScissorsPaperMenu()
+            }
             continue
         }
         guard userInputNum != 0 else {
@@ -61,7 +66,7 @@ private func compareRockScissorsPaper(userInputNumber: RockScissorsPaperCase, co
 }
 
 private func showMukchippaMenu(isTurn: Bool) {
-    isWhoTurn = isComputerTurn
+    isWhoTurn = isTurn
     displayMukchippaMenu()
     isWorkingMukchippa = true
 }
