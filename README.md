@@ -1,6 +1,9 @@
 # Mukchippa Game
 ### 팀원: Ian, L
 ### Command Line Tool을 이용한 묵찌빠 게임입니다.
+### 순서도
+![순서도](https://github.com/ianK0909/ios-rock-scissor-paper/assets/149786504/779b080c-4e09-4017-9afa-ba0175da75a9)
+
 ## [STEP1] 가위 바위 보
 - 유저가 입력한 값과 컴퓨터의 랜덤 값을 통해 승부 정하기
 - 유저가 이기면 "이겼습니다."를 출력 후 게임 종료한다.
