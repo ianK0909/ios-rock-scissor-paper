@@ -4,15 +4,14 @@
 ## [STEP1] 가위 바위 보
 - 유저가 입력한 값과 컴퓨터의 랜덤 값을 통해 승부 정하기
 - 유저가 이기면 "이겼습니다."를 출력 후 게임 종료한다.
-     ![스크린샷 2023-12-01 13.42.51](https://hackmd.io/_uploads/HyhlHyvB6.png)
-
-- 컴퓨터가 이기면 "졌습니다."를 출력 후 게임 종료한다.
-    ![스크린샷 2023-12-01 13.43.30](https://hackmd.io/_uploads/r1LzS1wS6.png)
-
+<img width="278" alt="스크린샷 2023-12-01 13 42 51" src="https://github.com/ianK0909/ios-rock-scissor-paper/assets/149786504/126b57d5-29a1-4e61-883a-2fda9b6c2fae">
+- 컴퓨터가 이기면 "졌습니다."를 출력 후 게임을 종료한다.
+<img width="289" alt="스크린샷 2023-12-01 13 43 30" src="https://github.com/ianK0909/ios-rock-scissor-paper/assets/149786504/ea87feff-f24c-498f-93a4-ac2d8da226d9">
 - 비긴 경우에는 "비겼습니다."를 출력 후 계속 게임을 진행한다.
-    ![스크린샷 2023-12-01 13.42.58](https://hackmd.io/_uploads/S17QS1PS6.png)
+<img width="277" alt="스크린샷 2023-12-01 13 42 58" src="https://github.com/ianK0909/ios-rock- scissor-paper/assets/149786504/fd3ce8dc-7500-43e8-985a-c64d77618c38">
 - 0을 입력 시 "게임 종료"를 출력 후 종료한다.
-    ![스크린샷 2023-12-01 15.56.48](https://hackmd.io/_uploads/Hy4kEZvrp.png)
+<img width="253" alt="스크린샷 2023-12-01 15 56 48" src="https://github.com/ianK0909/ios-rock-scissor-paper/assets/149786504/b3649269-5169-4f8a-8e44-6b10c1fa4980">
+
 
 
 **[배운점]**
@@ -29,16 +28,14 @@
 
 ## [STEP2] 묵찌빠
 - [STEP1]의 게임 중 가위, 바위, 보 후에 결과에 따라 게임을 이어갑니다.
-    ![스크린샷 2023-12-01 15.51.46](https://hackmd.io/_uploads/rJx4X-wSa.png)
-
+     <img width="294" alt="스크린샷 2023-12-01 15 51 46" src="https://github.com/ianK0909/ios-rock-scissor-paper/assets/149786504/8ad91f71-de31-4872-81ca-692a539734b5">
 - 가위, 바위, 보 게임 혹은 지난 턴에서 이긴 사람이 턴을 쥡니다.
-    ![스크린샷 2023-12-01 15.52.10](https://hackmd.io/_uploads/rk-wQ-wra.png)
-
+     <img width="312" alt="스크린샷 2023-12-01 15 52 10" src="https://github.com/ianK0909/ios-rock-scissor-paper/assets/149786504/e2712af7-5120-4f98-8a65-9455e2f59c5b">
 - 입력을 잘못한 경우 컴퓨터에게 턴이 넘어간다.
-    ![스크린샷 2023-12-01 15.52.27](https://hackmd.io/_uploads/SkNd7ZwHp.png)
-
+     <img width="312" alt="스크린샷 2023-12-01 15 52 27" src="https://github.com/ianK0909/ios-rock-scissor-paper/assets/149786504/81f49af5-ae9d-4f31-91f0-6252f088dae1">
 - 유저와 컴퓨터의 값이 같을 경우 턴을 쥐고 있는 쪽이 승리한다.
-    ![스크린샷 2023-12-01 15.51.55](https://hackmd.io/_uploads/r1lcmWDHa.png)
+     <img width="312" alt="스크린샷 2023-12-01 15 52 10" src="https://github.com/ianK0909/ios-rock-scissor-paper/assets/149786504/d2a82202-e8de-42ca-83ab-8b5cd83e41a9">
+
 
 
 **[배운점]**
